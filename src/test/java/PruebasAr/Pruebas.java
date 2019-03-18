@@ -88,12 +88,10 @@ public class Pruebas {
         @Test
     public void PruebaA() {
         Inicio m = new Inicio();
-        String uno, dos, tres;
-        uno="Jose";
-        tres=("Juan"+"Andres"+"Juana");
-        dos=("Juan"+"Andres");
+        String resultadoE;
+        resultadoE= "Jose"+ "Jhon"+"Diana";
         String respuesta= m.ingresarPersona();
-        assertEquals(uno, respuesta);
+        assertEquals(resultadoE, respuesta);
         
     }
 }

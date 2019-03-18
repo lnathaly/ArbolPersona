@@ -54,7 +54,7 @@ public class Inicio {
       mapaAbuelos.get(2).getMapaPersona().get(7).getMapaPersona().put(15, new Persona (15, "Viviana"));
       mapaAbuelos.get(2).getMapaPersona().get(8).getMapaPersona().put(16, new Persona (16, "Diana"));
        
-      int identificacion =2;
+      int identificacion =16;
       String respuesta= null;
 
 
